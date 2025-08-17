@@ -1,0 +1,64 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: black;
+    margin: 0;
+    padding: 20px;
+    color: #FFD700; /* Gold text color */
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    padding: 40px;
+    background-color: gold; /* Gold header background */
+    color: black; /* Black header text */
+    margin-bottom: 30px;
+    border-bottom: 5px solid black; /* Strong black border */
+}
+
+/* Styling for the content boxes */
+.learning-box {
+    /* Padding: Adds space between the content and the border */
+    padding: 25px;
+
+    /* Border: Creates a line around the padding and content */
+    border: 2px solid gold;
+    
+    /* Margin: Adds space outside the border, separating the boxes */
+    margin-bottom: 25px;
+
+    background-color: #1a1a1a; /* A slightly lighter black for the boxes */
+    border-radius: 10px; /* Rounded corners for a modern look */
+    box-shadow: 0 5px 10px rgba(255, 215, 0, 0.3); /* A gold-tinted shadow */
+}
+
+/* Styling for headings */
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+h2 {
+    color: gold; /* Gold headings */
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    color: #ccc; /* Light gray for the footer text */
+    border-top: 2px solid gold; /* Gold top border */
+}
+
+/* Subtle gold accents for links */
+a {
+    color: gold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
